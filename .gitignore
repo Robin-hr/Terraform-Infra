@@ -1,0 +1,53 @@
+##############################
+# Terraform .gitignore File
+##############################
+
+# Local .terraform directories
+**/.terraform/*
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Module & provider lock files
+*.lock.hcl
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Any temporary files
+*.backup
+*.bak
+
+# SSH keys (optional — keep if needed)
+*.pem
+*.key
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
